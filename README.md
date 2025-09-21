@@ -2,7 +2,7 @@
 
 This project implements a Convolutional Neural Network (CNN) using PyTorch to classify images from the CIFAR-10 dataset. CIFAR-10 consists of 60,000 32×32 color images across 10 categories such as airplanes, cars, birds, and cats.
 
-## 🚀 Features
+##  Features
 
 - Loads and preprocesses CIFAR-10 dataset using torchvision
 - Custom CNN architecture with convolution, pooling, dropout, and fully connected layers
@@ -11,12 +11,12 @@ This project implements a Convolutional Neural Network (CNN) using PyTorch to cl
 - Accuracy evaluation on test dataset
 - Visualization of images, predictions, and training curves
 
-## 📂 Project Structure
+## Project Structure
 
 - `cifar10_cnn_solution.ipynb` → Main Jupyter notebook with code and explanations
 - `notebook_ims/` → Sample images used for visualization in the notebook
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 The CNN model (`Net` class) is defined as follows:
 
@@ -45,7 +45,7 @@ The CNN model (`Net` class) is defined as follows:
 
 This structure allows the network to progressively extract spatial features before flattening into a vector for classification.
 
-## ⚙️ Requirements
+## Requirements
 
 - Python 3.8+
 - PyTorch
@@ -54,18 +54,18 @@ This structure allows the network to progressively extract spatial features befo
 - Numpy
 - Jupyter
 
-## 📈 Results
+##  Results
 
 The model achieves strong performance (~70–80% test accuracy depending on training time and hyperparameters).
 
 Results may vary based on batch size, epochs, and dropout rate.
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Use data augmentation (random crop, rotation, flip) for better generalization
 - Try deeper architectures like ResNet or VGG
 - Experiment with learning rate scheduling and regularization techniques
 
-## 👩‍💻 Author
+##  Author
 
 Developed as part of a deep learning practice project using PyTorch for image classification tasks.
